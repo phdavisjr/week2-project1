@@ -7,8 +7,13 @@
 // ==========================================================================
 
 // 1. Create an object called "me" that describes you with your name, city, and job title.
-
+ var me = {
+   name: 'Chip',
+   city: 'Niwot',
+   jobTitle: 'Principal'
+ };
 //console.log("Question 1");
+console.log(me);
 //console.log(yourAnswer);
 
 // 2. To your "me" object, add a key of "family" with the value being an array of three of your family members.
